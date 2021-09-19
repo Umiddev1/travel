@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <!-- icon -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- /icon -->
+    <!-- /fonts -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/column.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- /css -->
+    <title>Document</title>
+</head>
+<body>
+        <header class="site-header">
+            <div class="fulled-container">
+                <div class="group-header row between align-center">
+                    <a class="logo" href="index.html"><img src="img/logo.svg" alt="logo" width="174" height="45"></a>
+                    <nav class="nav-bar">
+                        <ul class="nav-list row">
+                            <li class="list-item"><a class="list-link" href="#">Destination</a></li>
+                            <li class="list-item"><a class="list-link" href="#">Offer</a></li>
+                            <li class="list-item"><a class="list-link" href="#">Tour</a></li>
+                            <li class="list-item"><a class="list-link" href="#">Blog</a></li>
+                        </ul>
+                    </nav>
+                    <ul class="icon-list row">
+                        <li class="icon-item"><a class="icon-user icon-link" href="#"><i class='bx bx-user'></i></a><a class="icon-link" href="#">My Account</a></li>
+                        <li class="icon-item"><a href="#" class="icon-search icon-link"><i class='bx bx-search'></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <section id="hero">
+        <div class="fulled-container">
+            <div class="hero-content">
+                <h2 class="title-hero">It’s Time To<br>Explore The World</h2>
+                <a class="hero-btn" href="#">Plan Your Trip</a>
+            </div>
+                <div class="righ-left row">
+                    <ul class="rl-list row">
+                        <li class="rl-item"><span class="icon-rl"><i class='bx bxs-chevron-left-square'></i></span></li>
+                        <li class="rl-item"><span class="icon-rl"><i class='bx bx-chevron-right-square'></i></span></li>
+                    </ul>
+                    <span class="sp-number">03</span>
+                </div>
+                <div class="form-group">
+                   <form class="header-form" action="https://echo.htmlacademy.ru/">
+                    <div class="input-group">
+                        <label class="form-label arrow-down" for="country-select">Destinations</label>
+                        <input class="form-input" type="text" name="country-select" id="country-select" value="Arab Egypt" required list="country" placeholder="Country">
+                        <datalist id="country">
+                            <option value="Egypt">Arab Egypt</option>
+                            <option value="Istanbul">Turkey, Istanbul</option>
+                            <option value="Antalya">Turkey, Antalya</option>
+                            <option value="Egypt">Arab Egypt</option>
+                            <option value="America">USA, New York</option>
+                            <option value="Uzbekistan">Uzbekistan, Toshkent</option>
+                            <option value="Malaysia">Malaysia</option>
+                        </datalist>
+                    </div>
+                    <div class="input-group">
+                        <label class="form-labe calendar" for="date">Check In</label>
+                        <input class="form-input" type="date" name="date" id="date" required value="2021-01-12">
+                    </div>
+                    <div class="input-group">
+                        <label class="form-label dollar" for="price-range">Price Range</label>
+                        <input class="form-input range-input" type="text" name="price-range" id="price-range" required autocomplete="off" value="$500 - $10,0000">
+                    </div>
+                    <button class="form-btn btn" type="submit">discover now</button>
+                    </form>
+                </div>
+            </div>
+     </section>
+     <main>
+     <section id="servic">
+        <div class="fulled-container">
+            <div class="servic-group">
+                <ul class="servic-list">
+                    <li class="servic-item"><h3 class="servic-title">Choose Destination</h3>
+                    <p class="servic-text">Lorem Ipsum is simply dummy text of the printing setting</p></li>
+                    <li class="servic-item"><h3 class="servic-title two">Explore The Place</h3>
+                    <p class="servic-text">Lorem Ipsum is simply dummy text of the printing setting</p></li>
+                    <li class="servic-item"><h3 class="servic-title three">Start Your Journey</h3>
+                    <p class="servic-text">Lorem Ipsum is simply dummy text of the printing setting</p></li>
+                    <li class="servic-item"><h3 class="servic-title four">Let’s Enjoy</h3><p class="servic-text">
+                    Lorem Ipsum is simply dummy text of the printing setting</p></li>
+                </ul>
+            </div>
+        </div>
+     </section>
+     <section id="travel">
+        <div class="fulled-container">
+            <div class="travel-group">
+                <div class="travel-content">
+                    <h2 class="travel-title">Top <span class="title-orange">Destinations</span> In The World</h2>
+                    <p class="travel-text">It is a long established fact that a reader will be the distracted by the readable content of a page when looking at its layout from it.</p>
+                    <a class="travel-btn" href="#">Discovery Now</a>
+                </div>
+                <div class="travel-item">
+                    <img src="img/cuba.svg" alt="cuba" width="250" height="400">
+                </div>
+                <div class="travel-item">
+                    <img src="img/Paris-City.svg" alt="Paris-City" width="250" height="400">
+                    <span class="country">Parij City</span>
+                </div>
+                <div class="travel-item">
+                    <img class="japan" src="img/japan.svg" alt="japan" width="250" height="300">
+                </div>            
+            </div>
+        </div>
+     </section>
+     <section id="best">
+         <div class="fulled-container">
+             <div class="best-group">
+                <div class="best-img-group">
+                    <img class="bst-img" src="img/lighthouse.png" alt="lighthouse" width="370" height="500">
+                </div>
+                <div class="best-content">
+                    <h2 class="best-title">We Offering In Total 793 Tours Out The World</h2>
+                    <ul class="best-list">
+                        <li class="best-item item-after"><h4 class="best-title-text">Best Travel Guide Always For Your Services</h4>
+                        <p class="best-text">Travel has helped us to understandsa the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes. Travel has helped us to understand the meaning of life</p></li>
+                        <li class="best-item item-before-one item-after"><h4 class="best-title-text">World Class Services Provide For You</h4></li>
+                        <li class="best-item item-before"><h4 class="best-title-text">24/7 Strong Customer Support</h4></li>
+                    </ul>
+                </div>
+             </div>
+         </div>
+     </section>
+     <section id="choose">
+        <div class="fulled-container">
+            <h2 class="choose-title">Choose Your Destination</h2>
+            <div class="choose-content">
+                <div class="choose-country">
+                    <img class="choose-img" src="img/place-1.svg" alt="place-1">
+                    <div class="choose-money-group">
+                    <div class="choose-money">
+                        <p class="money-title">Santorini, Oia Greece</p>
+                        <div class="choose-info">
+                            <p class="money">$2000</p>
+                            <ul class="star-list row">
+                                <li class="star"><i class='star-icon bx bxs-star'></i></li>
+                                <li class="star"><i class='star-icon bx bxs-star'></i></li>
+                                <li class="star"><i class='star-icon bx bxs-star'></i></li>
+                                <li class="star"><i class='star-icon bx bxs-star'></i></li>
+                                <li class="star"><i class='star-icon bx bxs-star'></i></li>
+                            </ul>
+                            <p class="reviews">5k Reviews</p>
+                            <a class="plus" href="#">+</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="choose-country top">
+                    <img class="choose-img" src="img/place-2.svg" alt="place-2">
+                    <div class="choose-money-group">
+                    <div class="choose-money">
+                        <p class="money-title">Santorini, Oia Greece</p>
+                        <div class="choose-info">
+                            <p class="money">$2000</p>
+                            <ul class="star-list row">
+                                <li class="star"><i class='star-icon bx bxs-star'></i></li>
+                                <li class="star"><i class='star-icon bx bxs-star'></i></li>
+                                <li class="star"><i class='star-icon bx bxs-star'></i></li>
+                                <li class="star"><i class='star-icon bx bxs-star'></i></li>
+                                <li class="star"><i class='star-icon bx bxs-star'></i></li>
+                            </ul>
+                            <p class="reviews">5k Reviews</p>
+                            <a class="plus" href="#">+</a>
+            </div>
+        </div>
+        </div>
+        <div class="btn-choose">
+        <a class="view" href="#">View All Place</a>
+        </div>
+        </div>
+        <div class="choose-country">
+            <img class="choose-img" src="img/place-3.svg" alt="place-2">
+            <div class="choose-money-group">
+            <div class="choose-money">
+                <p class="money-title">Santorini, Oia Greece</p>
+                <div class="choose-info">
+                    <p class="money">$2000</p>
+                    <ul class="star-list row">
+                        <li class="star"><i class='star-icon bx bxs-star'></i></li>
+                        <li class="star"><i class='star-icon bx bxs-star'></i></li>
+                        <li class="star"><i class='star-icon bx bxs-star'></i></li>
+                        <li class="star"><i class='star-icon bx bxs-star'></i></li>
+                        <li class="star"><i class='star-icon bx bxs-star'></i></li>
+                    </ul>
+                    <p class="reviews">5k Reviews</p>
+                    <a class="plus" href="#">+</a>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+     </section>
+     <section id="about">
+        <div class="fulled-container">
+            <h2 class="about-title">What Our Happy Customers
+                Say About Us</h2>
+                <div class="about-content">
+                    <ul class="about-list">
+                        <li class="about-item-one"><img src="img/image 5.svg" alt="img"></li>
+                        <li class="about-item-two"><img src="img/image 6.svg" alt="img"></li>
+                        <li class="about-item-three"><img src="img/image 7.svg" alt="img"></li>
+                        <li class="about-item-four"><img src="img/image 8.svg" alt="img"></li>
+                    </ul>
+                    <div class="ux">
+                        <div class="designer row">
+                            <div class="design-img"><img src="img/Ellipse 27.svg" alt="rec"></div>
+                            <div class="designer-text">
+                                <p class="ux-text">Md Shamim Hossain</p>
+                                <p class="ux-text-red">UI/UX Designer</p>
+                            </div>
+                        </div>
+                        <p class="design-text-gray">Jetrips Hotel is an excellent choice for anybody for considering hosting their events there. Top levela facilities and excellent staff make for a brilliantad environment within which to operate. The hotel is meticulous in its planning.</p>
+                        <a class="slayder" href="#"><img src="img/slayder.svg" alt="slayder"></a>
+                    </div>
+                    <ul class="about-list-two">
+                        <li class="item-about-one"><img src="img/image 01.svg" alt="img"></li>
+                        <li class="item-about-two"><img src="img/image 2.svg" alt="img"></li>
+                        <li class="item-about-three"><img src="img/image 4.svg" alt="img"></li>
+                    </ul>
+                </div>
+        </div>
+     </section>
+     <section id="community">
+        <div class="fulled-container">
+            <div class="comm-group">
+                <div class="comm-content">
+                    <h2 class="com-title">Download Now Travel Community Apps</h2>
+                    <ul class="com-list row">
+                        <li class="com-item"><a href="https://play.google.com/store"><img src="img/google play.svg" alt="google"></a></li>
+                        <li class="com-item"><a href="https://www.apple.com/ru/app-store/"><img src="img/apple store.svg" alt="app-store"></a></li>
+                    </ul>
+                </div>
+                <div class="comm-img">
+                    <img src="img/travel.png" alt="tr" width="600">
+                </div>
+            </div>
+        </div>
+     </section>
+     </main>
+     <footer>
+         <div class="fulled-container">
+             <div class="fot-group">
+                 <div class="ft-itemm">
+                    <a class="ft-logo" href="#"><img src="img/logo.svg" alt="logo"></a>
+                    <p class="ft-text">You can dream, create, design, and buildsa the most wonderful place.</p>
+                    <ul class="ft-list-one">
+                        <li class="ft-item"><a class="ft-link" href="#">+0123 456 987, +0123 456 987</a></li>
+                        <li class="ft-item ft-two"><a class="ft-link" href="#">yourmailaddress@gmail.com</a></li>
+                        <li class="ft-item ft-three"><a class="ft-link" href="#">www.yourwebsitename.com</a></li>
+                    </ul>
+                 </div>
+                 <div class="ft-itemm">
+                     <p class="ft-list-title">Quick Links</p>
+                     <ul class="ft-list">
+                        <li class="ft-item-bf"><a class="ft-link" href="#">About</a></li>
+                        <li class="ft-item-bf"><a class="ft-link" href="#">Destination</a></li>
+                        <li class="ft-item-bf"><a class="ft-link color" href="#">Latest Blog</a></li>
+                        <li class="ft-item-bf"><a class="ft-link" href="#">Our Team</a></li>
+                        <li class="ft-item-bf"><a class="ft-link" href="#">Contact Us</a></li>
+                     </ul>
+                 </div>
+                 <div class="ft-itemm">
+                    <p class="ft-list-title">Support</p>
+                    <ul class="ft-list">
+                       <li class="ft-item-bf"><a class="ft-link" href="#">Customer Support</a></li>
+                       <li class="ft-item-bf"><a class="ft-link" href="#">Privacy & Policy</a></li>
+                       <li class="ft-item-bf"><a class="ft-link" href="#">Terms</a></li>
+                       <li class="ft-item-bf"><a class="ft-link" href="#">Forum</a></li>
+                       <li class="ft-item-bf"><a class="ft-link" href="#">Tour Guid</a></li>
+                    </ul>
+                </div>
+                <div class="ft-itemm">
+                    <p class="ft-list-title">Newsletter</p>
+                    <form action="https://echo.htmlacademy.ru/">
+                        <input class="inp" type="email" name="email" required placeholder="Enter Email">
+                    </form>
+                    <button class="ft-btn" type="submit">Subscribe Now</button>
+                </div>
+             </div>
+             <div class="fot-bottom">
+                <p class="bot-text">Copyright @2020 Ravel. Designed By <span class="cl">Md Shamim Hossain</span></p>
+             </div>
+         </div>
+     </footer>
+</body>
+</html>
