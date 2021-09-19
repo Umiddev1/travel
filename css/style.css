@@ -51,7 +51,7 @@ a {
 }
 
 .list-link:hover {
-    color: #ccc;
+    color: #FF5B65;
 }
 
 .icon-item {
@@ -70,9 +70,15 @@ a {
     color: #2C2C2C;
     transition: color 0.2s ease;
 }
-
+.icon-search::before {
+    content: "";
+    height: 20px;
+    display: inline-block;
+    border-left: 2px solid #F1E0DD;
+    margin-right: 10px;
+}
 .icon-link:hover {
-    color: #ccc;
+    color: #FF5B65;
 }
 .hero-content {
     margin-top: 250px;
