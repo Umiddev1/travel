@@ -560,6 +560,33 @@ a {
 .top {
     transform: translateY(-180px);
 }
+
+.top::before {
+    content: "";
+    width: 169px;
+    height: 169px;
+    display: inline-block;
+    background-image: url("../img/left-triangle.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    left: -199px;
+    top: 17px;
+}
+.topp::after {
+    content: "";
+    width: 148px;
+    height: 169px;
+    display: inline-block;
+    background-image: url("../img/right-triangle.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    right: -167px;
+    top: 20px;
+}
 .btn-choose {
     display: flex;
     justify-content: center;
@@ -615,7 +642,7 @@ a {
     align-items: center;
     margin-top: 300px;
     position: absolute;
-    right: 294px;
+    right: 320px;
 }
 .ux {
     width: 590px;
