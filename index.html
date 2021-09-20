@@ -21,9 +21,9 @@
 </head>
 <body>
         <header class="site-header">
-            <div class="fulled-container">
+            <div class="container">
                 <div class="group-header row between align-center">
-                    <a class="logo" href="index.html"><img src="img/logo.svg" alt="logo" width="174" height="45"></a>
+                    <a class="logo" href="index.html"><img class="logo-img" src="img/logo.svg" alt="logo" width="174" height="45"></a>
                     <nav class="nav-bar">
                         <ul class="nav-list row">
                             <li class="list-item"><a class="list-link" href="#">Destination</a></li>
@@ -40,15 +40,15 @@
             </div>
         </header>
         <section id="hero">
-        <div class="fulled-container">
+        <div class="container">
             <div class="hero-content">
                 <h2 class="title-hero">It’s Time To<br>Explore The World</h2>
                 <a class="hero-btn" href="#">Plan Your Trip</a>
             </div>
                 <div class="righ-left row">
                     <ul class="rl-list row">
-                        <li class="rl-item"><span class="icon-rl"><i class='bx bxs-chevron-left-square'></i></span></li>
-                        <li class="rl-item"><span class="icon-rl"><i class='bx bx-chevron-right-square'></i></span></li>
+                        <li class="rl-item"><a class="left-arrow" href="#"><img src="img/arrow-left.svg" alt="arrow-down" width="40"></a></li>
+                        <li class="rl-item"><a class="right-arrow" href="#"><img src="img/arrow-right.svg" alt="arrow-down"></a></li>
                     </ul>
                     <span class="sp-number">03</span>
                 </div>
@@ -75,14 +75,14 @@
                         <label class="form-label dollar" for="price-range">Price Range</label>
                         <input class="form-input range-input" type="text" name="price-range" id="price-range" required autocomplete="off" value="$500 - $10,0000">
                     </div>
-                    <button class="form-btn btn" type="submit">discover now</button>
+                    <a class="form-btn btn" href="#">Discover</a>
                     </form>
                 </div>
             </div>
      </section>
      <main>
      <section id="servic">
-        <div class="fulled-container">
+        <div class="container">
             <div class="servic-group">
                 <ul class="servic-list">
                     <li class="servic-item"><h3 class="servic-title">Choose Destination</h3>
@@ -98,7 +98,7 @@
         </div>
      </section>
      <section id="travel">
-        <div class="fulled-container">
+        <div class="container">
             <div class="travel-group">
                 <div class="travel-content">
                     <h2 class="travel-title">Top <span class="title-orange">Destinations</span> In The World</h2>
@@ -106,23 +106,22 @@
                     <a class="travel-btn" href="#">Discovery Now</a>
                 </div>
                 <div class="travel-item">
-                    <img src="img/cuba.svg" alt="cuba" width="250" height="400">
+                    <img class="cuba" src="img/cubaa.svg" alt="cuba" width="250" height="400">
                 </div>
                 <div class="travel-item">
-                    <img src="img/Paris-City.svg" alt="Paris-City" width="250" height="400">
-                    <span class="country">Parij City</span>
+                    <img src="img/parij.svg" alt="Paris-City" width="250" height="400">
                 </div>
                 <div class="travel-item">
-                    <img class="japan" src="img/japan.svg" alt="japan" width="250" height="300">
+                    <img class="japan" src="img/japann.svg" alt="japan" width="250" height="305">
                 </div>            
             </div>
         </div>
      </section>
      <section id="best">
-         <div class="fulled-container">
+         <div class="container">
              <div class="best-group">
                 <div class="best-img-group">
-                    <img class="bst-img" src="img/lighthouse.png" alt="lighthouse" width="370" height="500">
+                    <img class="bst-img" src="img/best-group-img.svg" alt="lighthouse" width="600">
                 </div>
                 <div class="best-content">
                     <h2 class="best-title">We Offering In Total 793 Tours Out The World</h2>
@@ -130,15 +129,17 @@
                         <li class="best-item item-after"><h4 class="best-title-text">Best Travel Guide Always For Your Services</h4>
                         <p class="best-text">Travel has helped us to understandsa the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes. Travel has helped us to understand the meaning of life</p></li>
                         <li class="best-item item-before-one item-after"><h4 class="best-title-text">World Class Services Provide For You</h4></li>
-                        <li class="best-item item-before"><h4 class="best-title-text">24/7 Strong Customer Support</h4></li>
+                        <li class="best-item item-before-two"><h4 class="best-title-text">24/7 Strong Customer Support</h4></li>
                     </ul>
                 </div>
              </div>
          </div>
      </section>
      <section id="choose">
-        <div class="fulled-container">
+        <div class="container">
+            <div class="chs-title">
             <h2 class="choose-title">Choose Your Destination</h2>
+            </div>
             <div class="choose-content">
                 <div class="choose-country">
                     <img class="choose-img" src="img/place-1.svg" alt="place-1">
@@ -207,9 +208,10 @@
         </div>
      </section>
      <section id="about">
-        <div class="fulled-container">
+        <div class="container">
             <h2 class="about-title">What Our Happy Customers
                 Say About Us</h2>
+                <div class="ab">
                 <div class="about-content">
                     <ul class="about-list">
                         <li class="about-item-one"><img src="img/image 5.svg" alt="img"></li>
@@ -234,16 +236,17 @@
                         <li class="item-about-three"><img src="img/image 4.svg" alt="img"></li>
                     </ul>
                 </div>
+                </div>
         </div>
      </section>
      <section id="community">
-        <div class="fulled-container">
+        <div class="container">
             <div class="comm-group">
                 <div class="comm-content">
                     <h2 class="com-title">Download Now Travel Community Apps</h2>
                     <ul class="com-list row">
-                        <li class="com-item"><a href="https://play.google.com/store"><img src="img/google play.svg" alt="google"></a></li>
-                        <li class="com-item"><a href="https://www.apple.com/ru/app-store/"><img src="img/apple store.svg" alt="app-store"></a></li>
+                        <li class="com-item"><a href="https://play.google.com/store" target="_blank"><img src="img/google play.svg" alt="google" width="170"></a></li>
+                        <li class="com-item"><a href="https://www.apple.com/ru/app-store/" target="_blank"><img src="img/apple store.svg" alt="app-store" width="170"></a></li>
                     </ul>
                 </div>
                 <div class="comm-img">
@@ -254,13 +257,13 @@
      </section>
      </main>
      <footer>
-         <div class="fulled-container">
+         <div class="container">
              <div class="fot-group">
-                 <div class="ft-itemm">
+                 <div class="ft-itemm itemm-one">
                     <a class="ft-logo" href="#"><img src="img/logo.svg" alt="logo"></a>
                     <p class="ft-text">You can dream, create, design, and buildsa the most wonderful place.</p>
                     <ul class="ft-list-one">
-                        <li class="ft-item"><a class="ft-link" href="#">+0123 456 987, +0123 456 987</a></li>
+                        <li class="ft-item"><a class="ft-link" href="tel:0123456987">+0123 456 987, +0123 456 987</a></li>
                         <li class="ft-item ft-two"><a class="ft-link" href="#">yourmailaddress@gmail.com</a></li>
                         <li class="ft-item ft-three"><a class="ft-link" href="#">www.yourwebsitename.com</a></li>
                     </ul>
@@ -286,7 +289,7 @@
                     </ul>
                 </div>
                 <div class="ft-itemm">
-                    <p class="ft-list-title">Newsletter</p>
+                    <p class="ft-list-title news">Newsletter</p>
                     <form action="https://echo.htmlacademy.ru/">
                         <input class="inp" type="email" name="email" required placeholder="Enter Email">
                     </form>
@@ -294,7 +297,7 @@
                 </div>
              </div>
              <div class="fot-bottom">
-                <p class="bot-text">Copyright @2020 Ravel. Designed By <span class="cl">Md Shamim Hossain</span></p>
+                <p class="bot-text">Copyright @2020 Ravel. Designed By <a class="cl" href="#">Md Shamim Hossain</a></p>
              </div>
          </div>
      </footer>
